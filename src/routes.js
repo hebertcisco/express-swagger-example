@@ -4,7 +4,7 @@ const router = Router();
 
 const options = {
     swaggerOptions: {
-        url: 'http://petstore.swagger.io/v2/swagger.json'
+        url: 'https://petstore.swagger.io/v2/swagger.json'
     }
 }
 router.use("/docs", swaggerUi.serve, swaggerUi.setup(null, options));
